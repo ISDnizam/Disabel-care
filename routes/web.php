@@ -13,6 +13,33 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('homepage');
+Route::get('/about-us', 'HomeController@about')->name('about');
+Route::get('/contact', 'HomeController@contact')->name('contact');
+Route::get('/gallery', 'HomeController@gallery')->name('gallery');
+
+
+Route::get('/product/detail/{id}', 'HomeController@detail')->name('detailProduct');
+Route::get('/admin', 'admin\DashboardController@index');
+Route::get('/admin/product', 'admin\ProductController@index');
+Route::get('admin/product/add', 'admin\ProductController@add');
+Route::post('admin/product/action_add', 'admin\ProductController@action_add');
+Route::get('admin/product/edit/{id}', 'admin\ProductController@edit');
+Route::post('admin/product/action_edit/{id}', 'admin\ProductController@action_edit')->name('product.edit');
+Route::get('admin/product/delete/{id}', 'admin\ProductController@delete');
+
+
+
+Route::get('/admin/settings', 'admin\SettingsController@index');
+Route::get('admin/settings/edit/{id}', 'admin\SettingsController@edit');
+Route::post('admin/settings/action_edit/{id}', 'admin\SettingsController@action_edit')->name('settings.edit');
+
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('/login', 'Auth\LoginController@login');
+Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
+
+Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+Route::post('/register', 'Auth\RegisterController@register');
