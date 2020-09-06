@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use Session;
 use App\Product;
+use App\ProductCategory;
+use App\Settings;
 use File;
 class ProductController extends Controller
 {
@@ -18,12 +20,15 @@ class ProductController extends Controller
 
     public function index(){
         $data['title'] = "Daftar Produk";
-        $data['list'] =Product::all();
+        $data['list'] = Product::with("productCategory")->orderBy('id_product', 'desc')->get();
+        $data['settings'] = Settings::all();
         return view('admin/product/list',$data);
     }
 
     public  function  add(){
         $data['title'] = "Tambah Produk";
+        $data['productCategory'] = ProductCategory::get();
+        $data['settings'] = Settings::all();
         return view('admin/product/add',$data);
     }
 
@@ -44,6 +49,8 @@ class ProductController extends Controller
 
     public  function edit($id_product){
         $data['title'] = "Edit Produk";
+        $data['productCategory'] = ProductCategory::get();
+        $data['settings'] = Settings::all();
         $data['edit'] = Product::find($id_product);
         return view('admin/product/edit',$data);
     }

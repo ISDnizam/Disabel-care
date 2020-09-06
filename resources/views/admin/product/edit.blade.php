@@ -29,6 +29,23 @@
                             <input type="text" class="form-control" name="form[title]" value="{{$edit->title}}"/>
                           </div>
                         </div>
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Kategori</label>
+                          <div class="col-sm-9">
+                          <select class="form-control" id="categoryProduct" name="form[id_product_category]">
+                            @foreach($productCategory as $key)
+                            <option value="{{$key->id_product_category}}"  @if ($edit->id_product_category == $key->id_product_category)  selected @endif >{{$key->category_name}}</option>
+                            @endforeach
+                          </select>
+                          </div>
+                        </div>
+
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Harga</label>
+                          <div class="col-sm-9">
+                            <input type="number" class="form-control" name="form[price]" value="{{$edit->price}}"/>
+                          </div>
+                        </div>
 
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Gambar</label>
@@ -62,10 +79,6 @@
             </div>
           </div>
       </div>
-
-  <script src="/assets/admin/vendors/js/vendor.bundle.base.js"></script>
-  <script src="/assets/admin/vendors/js/vendor.bundle.addons.js"></script>
-
     <!-- plugin js for this page -->
   <script src="http://www.urbanui.com/justdo/template/vendors/summernote/dist/summernote-bs4.min.js"></script>
   <!-- Custom js for this page-->

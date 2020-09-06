@@ -59,7 +59,7 @@
                                                         <div class="pl_about_us_widget  ">
                                                             <p class="social">
                                                             @foreach ($social_media as $key)
-                                                            <a href="#" target="_blank" title="{{$key->type}}"><i class="{{$key->icon}}"></i></a>
+                                                            <a href="{{$key->url}}" target="_blank" title="{{$key->type}}"><i class="{{$key->icon}}"></i></a>
                                                             @endforeach
                                                             </p>
                                                         </div>

@@ -20,9 +20,10 @@ Route::get('/home', 'HomeController@index')->name('homepage');
 Route::get('/about-us', 'HomeController@about')->name('about');
 Route::get('/contact', 'HomeController@contact')->name('contact');
 Route::get('/gallery', 'HomeController@gallery')->name('gallery');
-
-
+Route::get('/product/{id}', 'HomeController@product')->name('product');
 Route::get('/product/detail/{id}', 'HomeController@detail')->name('detailProduct');
+
+
 Route::get('/admin', 'admin\DashboardController@index');
 Route::get('/admin/product', 'admin\ProductController@index');
 Route::get('admin/product/add', 'admin\ProductController@add');
@@ -30,6 +31,9 @@ Route::post('admin/product/action_add', 'admin\ProductController@action_add');
 Route::get('admin/product/edit/{id}', 'admin\ProductController@edit');
 Route::post('admin/product/action_edit/{id}', 'admin\ProductController@action_edit')->name('product.edit');
 Route::get('admin/product/delete/{id}', 'admin\ProductController@delete');
+Route::get('/admin/gallery', 'admin\GalleryController@index');
+Route::post('/admin/gallery/action_add', 'admin\GalleryController@action_add');
+Route::get('admin/gallery/delete/{id}', 'admin\GalleryController@delete');
 
 
 

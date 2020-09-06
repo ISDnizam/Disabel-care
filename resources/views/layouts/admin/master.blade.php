@@ -22,7 +22,7 @@
 	<nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
         <!-- <a href="/"><h2 style="color:#ccc">Nizam.id</h2></a> -->
-        <a class="navbar-brand brand-logo mr-5" href="/"><img src="/assets/images/logo2.png" class="mr-2" alt="logo" style="margin-left:20px;height: 40px !important; width:100%" /></a>
+        <a class="navbar-brand brand-logo mr-5" href="/"><img src="/assets/images/logo.png" class="mr-2" alt="logo" style="margin-left:20px;height: 40px !important; width:100%" /></a>
         <a class="navbar-brand brand-logo-mini" href="/"><img src="/assets/images/logo.png" alt="logo"/></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
@@ -68,14 +68,30 @@
             </a>
         </li>
 
+
         <li class="nav-item">
-            <a class="nav-link" href="/admin/settings">
-              <i class="ti-clipboard menu-icon"></i>
-              <span class="menu-title">Settings</span>
+            <a class="nav-link" href="/admin/gallery">
+              <i class="ti-gallery menu-icon"></i>
+              <span class="menu-title">Gallery</span>
             </a>
         </li>
 
-         
+      
+
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <i class="ti-palette menu-icon"></i>
+              <span class="menu-title">Settings</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                @foreach($settings as $key)
+                <li class="nav-item"> <a class="nav-link" href="/admin/settings/edit/{{$key->name}}">{{$key->name}}</a></li>
+                @endforeach
+              </ul>
+            </div>
+          </li>
 
         </ul>
       </nav>
@@ -89,7 +105,7 @@
 
   		<footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2020 <a href="/" target="_blank">sragenflorist.com</a>. All rights reserved.</span>
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2020 <a href="/" target="_blank">difabelcarekakipalsu.com</a>. All rights reserved.</span>
           </div>
         </footer>
         <!-- partial -->

@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\DB;
 use App\Product;
 use App\Settings;
 use App\Gallery;
+use App\ProductCategory;
+
 use Illuminate\Support\Facades\URL;
 
 class HomeController extends Controller
@@ -29,7 +31,7 @@ class HomeController extends Controller
     public function index()
     {
         $data['title'] = "Homepage";
-        $data['product'] = Product::get();
+        $data['productCategory'] = ProductCategory::get();
         $phone = Settings::whereName('phone')->first();
         $address = Settings::whereName('address')->first();
         $social_media = Settings::whereName('social_media')->first();
@@ -45,6 +47,8 @@ class HomeController extends Controller
     public function about()
     {
         $data['title'] = "Tentang Kami";
+        $data['productCategory'] = ProductCategory::get();
+
         $phone = Settings::whereName('phone')->first();
         $address = Settings::whereName('address')->first();
         $social_media = Settings::whereName('social_media')->first();
@@ -60,6 +64,8 @@ class HomeController extends Controller
     {
         $data['title'] = "Hubungi Kami";
         $phone = Settings::whereName('phone')->first();
+        $data['productCategory'] = ProductCategory::get();
+
         $address = Settings::whereName('address')->first();
         $social_media = Settings::whereName('social_media')->first();
         $operational = Settings::whereName('operational_hours')->first();
@@ -74,6 +80,8 @@ class HomeController extends Controller
     public function gallery()
     {
         $data['title'] = "Gallery";
+        $data['productCategory'] = ProductCategory::get();
+
         $phone = Settings::whereName('phone')->first();
         $address = Settings::whereName('address')->first();
         $social_media = Settings::whereName('social_media')->first();
@@ -84,14 +92,39 @@ class HomeController extends Controller
         $data['social_media'] = json_decode($social_media->value);
         return view('gallery',$data);
     }
+    public function product($productCategory)
+    {
+        $category= str_replace('-',' ',$productCategory);
+        $data['category']= $category;
+        $data['title'] = $category;
+        $data['product'] = Product::whereHas('productCategory', function ($query) use($category) {
+        $query->where('category_name', '=', $category);
+        })->get();
+      
+        $data['productCategory'] = ProductCategory::get();
+        $phone = Settings::whereName('phone')->first();
+        $address = Settings::whereName('address')->first();
+        $social_media = Settings::whereName('social_media')->first();
+        $data['email'] = Settings::whereName('email')->first();
+        $data['phone'] = json_decode($phone->value);
+        $data['address'] = json_decode($address->value);
+        $data['social_media'] = json_decode($social_media->value);
+        return view('product',$data);
+    }
 
-    public function detail($id_product){
-    $data['product'] = Product::get();
-    $data['detail'] = Product::findOrFail($id_product);
-    $data['phone'] = Settings::whereName('phone')->first();
+    public function detail($title){
+    $title= str_replace('-',' ',$title);
+    $data['title'] = $title;
+    $data['detail'] = Product::with("productCategory")->where('title','=',$title)->first();
+    $data['otherProduct'] = Product::with("productCategory")->where('id_product_category','=',$data['detail']->id_product_category)->get();
+    $data['productCategory'] = ProductCategory::get();
+    $phone = Settings::whereName('phone')->first();
+    $address = Settings::whereName('address')->first();
+    $social_media = Settings::whereName('social_media')->first();
     $data['email'] = Settings::whereName('email')->first();
-    $data['address'] = Settings::whereName('address')->first();
-    $data['title'] = "Detail Product - ".$data['detail']->title;
+    $data['phone'] = json_decode($phone->value);
+    $data['address'] = json_decode($address->value);
+    $data['social_media'] = json_decode($social_media->value);
     return view('product_detail',$data);
     }
 }

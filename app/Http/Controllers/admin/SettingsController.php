@@ -15,29 +15,62 @@ class SettingsController extends Controller
     {
         $this->middleware(['auth']); 
     }
-
-    public function index(){
-        $data['title'] = "Pengaturan";
-        $data['list'] =Settings::all();
-        return view('admin/settings/list',$data);
-    }
-
-    public  function edit($id_setting){
-        $data['title'] = "Edit Pengaturan";
-        $data['edit'] = Settings::find($id_setting);
-        return view('admin/settings/edit',$data);
+    public  function edit($name){
+        $newName = str_replace('_',' ',$name);
+        $data['title'] = "Edit ".$newName;
+        $data['settings'] = Settings::all();
+        $data['edit'] = Settings::whereName($name)->first();
+        return view('admin/settings/edit_'.$name,$data);
     }
    
-    public function action_edit(Request $request,$id_setting){
+    public function action_edit(Request $request,$name){
+        $newName = str_replace('_',' ',$name);
         $form = $request->input('form');
+        $value = $request->input('value');
+
+    
         $this->validate($request,
         [
-        'form.value' => 'required', 
+        'value' => 'required', 
         ]);
+        if($name=='phone'){
+            $form['value'] = json_encode($value);
+        }elseif($name=='email' or $name=='about'){
+            $form['value'] = $value;
+        }elseif($name=='address'){
+            $value = array_values($value);
+            foreach ($value as $key => $val) {
+            $additional_data[$key]['location'] =  $val['location'];
+            $additional_data[$key]['address'] =  $val['address'];
+            }
+            $form['value'] = json_encode($additional_data);
+        }elseif($name=='operational_hours'){
+            $value = array_values($value);
+            foreach ($value as $key => $val) {
+            $additional_data[$key]['day'] =  $val['day'];
+            $additional_data[$key]['hour'] =  $val['hour'];
+            }
+            $form['value'] = json_encode($additional_data);
+        }elseif($name=='social_media'){
+            $value = array_values($value);
+            foreach ($value as $key => $val) {
+            $additional_data[$key]['type'] =  $val['type'];
+            $additional_data[$key]['icon'] =  $val['icon'];
+            $additional_data[$key]['url'] =  $val['url'];
+            }
+            $form['value'] = json_encode($additional_data);
+        }elseif($name=='testimonial'){
+            $value = array_values($value);
+            foreach ($value as $key => $val) {
+            $additional_data[$key]['name'] =  $val['name'];
+            $additional_data[$key]['description'] =  $val['description'];
+            }
+            $form['value'] = json_encode($additional_data);
+        }
 
-        Settings::find($id_setting)->update($form);
-        Session::flash('success','Sukses mengupdate');
-        return redirect('/admin/settings');
+        Settings::whereName($name)->update($form);
+        Session::flash('success','Sukses Update '.$newName);
+        return redirect('/admin/settings/edit/'.$name);
     }
 
 }

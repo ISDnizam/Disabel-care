@@ -15,7 +15,7 @@
         <meta property="og:description" content="Disabel Care Kaki Palsu merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia khusunya kaki palsu, tangan palsu" />
         <meta property="og:url" content="https://disabelcarekakipalsu.com" />
 
-        <title>Disabel Care- Jual Kaki Palsu</title>
+        <title>Difabel Care- Jual Kaki Palsu</title>
         <link rel="stylesheet" id="wp-block-library-css" href="/assets/theme/css/style.min.css?ver=5.3.4" type="text/css" media="all" />
         <link rel="stylesheet" id="contact-form-7-css" href="/assets/theme/css/styles.css?ver=5.1.6" type="text/css" media="all" />
         <link rel="stylesheet" id="owlcarousel2-css" href="/assets/theme/css/owl.carousel.css?ver=5.3.4" type="text/css" media="all" />
@@ -49,7 +49,7 @@
                                     <div class="top_menu_container">
                                         <ul id="menu-top-bar" class="top_menu hover_menu">
                                             <li id="menu-item-1773" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1773">
-                                                <a title="Request an Appointment" href="" style="color: #fff; font-weight: 800;">disabelcare@gmail.com</a>
+                                                <a title="Request an Appointment" href="" style="color: #fff; font-weight: 800;">{{$email->value}}</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -71,7 +71,7 @@
                     <div class="mainbar color">
                         <div class="container">
                             <div class="logo">
-                                <a href="" class="brand">
+                                <a href="/" class="brand">
                                     <img src="/assets/images/logo.png" alt="Disabel Care" />
                                 </a>
                             </div>
@@ -87,7 +87,13 @@
                                     <li id="menu-item-1789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-145 current_page_item menu-item-1789 active">
                                         <a title="Home" href="/">Home</a>
                                     </li>
-                                    <li id="menu-item-1760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1760"><a title="Produk" href="/product">Produk</a></li>
+                                    <li id="menu-item-1673" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1673 lihasdropdown"><a title="Produk" href="#">Produk </a>
+                                        <ul role="menu" class=" menu-dropdown">
+                                        @foreach($productCategory as $key)
+                                        <li id="menu-item-1758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1758"><a title="{{$key->category_name}}" href="/product/{{str_replace(' ','-',$key->category_name)}}">{{$key->category_name}}</a></li>
+                                        @endforeach
+                                    </ul>
+                                    </li>
                                     <li id="menu-item-1760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1760"><a title="Gallery" href="/gallery">Gallery</a></li>
                                     <li id="menu-item-1771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1771"><a title="Tentang Kami" href="/about-us">Tentang Kami</a></li>
                                     <li id="menu-item-1764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1764"><a title="Kontak" href="/contact">Kontak</a></li>
@@ -154,7 +160,7 @@
                                 <div class="pl_about_us_widget">
                                     <p class="social">
                                          @foreach ($social_media as $key)
-                                        <a href="#" target="_blank" title="{{$key->type}}"><i class="{{$key->icon}}"></i></a>
+                                        <a href="{{$key->url}}" target="_blank" title="{{$key->type}}"><i class="{{$key->icon}}"></i></a>
                                         @endforeach
                                     </p>
                                 </div>

@@ -19,9 +19,6 @@
                             <input type="text" class="form-control" name="form[title]"/>
                           </div>
                         </div>
-
-                     
-
                       </div>
 
                        <div class="col-md-6">
@@ -32,9 +29,32 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-12">
+
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Kategori</label>
+                          <div class="col-sm-9">
+                          <select class="form-control" id="exampleFormControlSelect2" name="form[id_product_category]">
+                            @foreach($productCategory as $key)
+                      <option value="{{$key->id_product_category}}">{{$key->category_name}}</option>
+                      @endforeach
+                    </select>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Harga</label>
+                          <div class="col-sm-9">
+                            <input type="number" class="form-control" name="form[price]"/>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
                       <div class="form-group row">
-                          <label class="col-sm-2 col-form-label">Desckripsi</label>
+                          <label class="col-sm-3 col-form-label">Desckripsi</label>
                           <div class="col-sm-9">
                             <textarea class="form-control" name="form[description]"   id="summernoteExample"></textarea>
                           </div>

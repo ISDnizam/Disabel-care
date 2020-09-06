@@ -10,7 +10,7 @@
                     <div class="container">
                         <div class="caption caption_right caption_fancy text-left">
                             <div class="inner black_section transparent_film animated slideInUp">
-                                <div class="t1">DISABEL CARE</div>
+                                <div class="t1">DIFABEL CARE</div>
                                 <div class="t2">Menyediakan Kaki Palsu</div>
 
                                 <p class="desc hidden-xxs">Jaminan Kualitas dan Layanan terbaik kami berikan untuk anda</p>
@@ -35,7 +35,7 @@
                     <div class="container">
                         <div class="caption caption_left caption_fancy text-left">
                             <div class="inner black_section transparent_film animated slideInUp">
-                                <div class="t1">DISABEL CARE</div>
+                                <div class="t1">DIFABEL CARE</div>
                                 <div class="t2">Menyediakan Kaki Palsu</div>
 
                                 <p class="desc hidden-xxs">Jaminan Kualitas dan Layanan terbaik kami berikan untuk anda</p>
@@ -157,13 +157,13 @@
                         <div class="wpb_text_column wpb_content_element">
                             <div class="wpb_wrapper">
                                 <div class="section_header subtitle_bottom fancy text-left">
-                                    <h2>SELAMAT DATANG DI DISABEL CARE</h2>
+                                    <h2>SELAMAT DATANG DI DIFABEL CARE</h2>
                                     <p>Mari Lawan Keterbatasan Tanpa Batas</p>
                                 </div>
                             </div>
                             <div class="wpb_wrapper">
                                 <p>
-                                    Disabel Care merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia. Kami sudah berdiri dan aktif melayani masyarakat sejak
+                                    Difabel Care merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia. Kami sudah berdiri dan aktif melayani masyarakat sejak
                                     tahun 2018 hingga sekarang. Kami senantiasa berusaha memberikan kualitas produk dan pelayanan yang terbaik.
                                     <br />
                                     <br />
@@ -268,19 +268,20 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="wpb_column vc_column_container col-sm-4">
                     <div class="wpb_wrapper">
                         <div class="pricing_plan skincolored_section">
                             <div style="background-image: url(https://plethorathemes.com/healthflex/conference/wp-content/themes/healthflex/features/shortcode/pricingplan/GPlay.svg);" class="plan_title skincolored_section">
-                                <h3>Kaki Palsu</h3>
-                                <p>Standard Registration Fees</p>
+                                <h3 style="font-size:1.5em">Kaki Palsu</h3>
+                                <p>Harga mulai dari Rp 7.000.000</p>
                             </div>
-                            <div class="the_price skincolored_section">Rp 8.150.000<small>/nett</small></div>
-                            <div class="the_offerings">
-                                Spesifikasi : Laminated, Sachfoot Import <br />
+                            <div class="the_offerings" style="margin-top:-30px">
+                                <h5>Produk : </h5>
+                            Kaki palsu atas lutut<br /> kaki palsu bawah lutut<br />Kaki Palsu Tepat Mata Kaki<br />Kaki Palsu Tepat Lutut <br />
 
-                                <a href="https://plethorathemes.com/healthflex/conference/registration/" class="btn btn-secondary with-icon icon-right" title="" target="_self">
-                                    Lihat Detail
+                                <a href="/product/Kaki-Palsu" class="btn btn-secondary with-icon icon-right" title="" target="_self">
+                                    Lihat Produk
                                     <i class="fa fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -291,14 +292,14 @@
                     <div class="wpb_wrapper">
                         <div class="pricing_plan secondary_section">
                             <div style="background-image: url(https://plethorathemes.com/healthflex/conference/wp-content/themes/healthflex/features/shortcode/pricingplan/GPlay.svg);" class="plan_title secondary_section">
-                                <h3>Tangan Palsu</h3>
-                                <p>For 5 persons or more</p>
+                                <h3 style="font-size:1.5em">Tangan Palsu</h3>
+                                <p>Harga mulai dari Rp 7.000.000</p>
                             </div>
-                            <div class="the_price secondary_section">Rp 8.550.000<small>/nett</small></div>
-                            <div class="the_offerings">
-                                Spesifikasi : Laminated, Sachfoot Import <br />
-                                <a href="https://plethorathemes.com/healthflex/conference/registration/" class="btn btn-warning with-icon icon-right" title="" target="_self">
-                                    Lihat Detail
+                            <div class="the_offerings" style="margin-top:-30px">
+                            <h5>Produk : </h5>
+                                Tangan Palsu Tepat Pergelangan<br />	Tangan Palsu Bawah Siku <br />Tangan Palsu Tepat Siku <br />Tangan Palsu Atas Siku <br />
+                                <a href="/product/Tangan-Palsu" class="btn btn-warning with-icon icon-right" title="" target="_self">
+                                    Lihat Produk
                                     <i class="fa fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -310,16 +311,15 @@
                         <div class="pricing_plan secondary_section" style="background-color: #00c1cf;">
                             <div
                                 style="background-image: url(https://plethorathemes.com/healthflex/conference/wp-content/themes/healthflex/features/shortcode/pricingplan/GPlay.svg); background-color: #00c1cf;"
-                                class="plan_title secondary_section"
-                            >
-                                <h3>Jari Palsu</h3>
-                                <p>Reduced Registration Fees</p>
+                                class="plan_title secondary_section">
+                                <h3 style="font-size:1.5em">Alat Bantu Orthopedi</h3>
+                                <p>Harga mulai dari Rp 2.000.000</p>
                             </div>
-                            <div class="the_price secondary_section" style="background-color: #00c1cf;">Rp 3.550.000<small>/nett</small></div>
-                            <div class="the_offerings">
-                                Spesifikasi : Laminated, Sachfoot Import <br />
-                                <a href="https://plethorathemes.com/healthflex/conference/registration/" class="btn btn-success with-icon icon-right" title="" target="_self">
-                                    Lihat Detail
+                            <div class="the_offerings" style="margin-top:-30px">
+                            <h5>Produk : </h5>
+                            Jari Palsu <br />AFO <br />Sepatu Orthopedi<br />xxx <br />
+                                <a href="/product/Alat-Bantu-Orthopedi" class="btn btn-success with-icon icon-right" title="" target="_self">
+                                    Lihat Produk
 
                                     <i class="fa fa-arrow-right"></i>
                                 </a>

@@ -29,7 +29,9 @@
                       <thead>
                         <tr>
                           <th>Judul Produk</th>
+                          <th>Kategori</th>
                           <th>Deskripsi</th>
+                          <th>Harga</th>
             							<th>Tanggal</th>
             							<th>Opsi</th>
                         </tr>
@@ -38,7 +40,9 @@
 						            @foreach($list as $p)
                         <tr>
                           <td>{{ $p->title }}</td>
-                          <td>{{ substr($p->description, 0, 50) }} </td>
+                          <td>{{ $p->productCategory->category_name }}</td>
+                          <td>{{ substr(strip_tags($p->description), 0, 50) }} </td>
+                          <td>Rp. {{ number_format($p->price,0) }}</td>
             							<td>{{ $p->created_at }}</td>
             							<td>
             								<a href="/admin/product/edit/{{ $p->id_product }}"  class="btn btn-warning">Edit</a>
@@ -55,9 +59,6 @@
           </div>
         </div>
         <!-- content-wrapper ends -->
-
-  <script src="/assets/admin/vendors/js/vendor.bundle.base.js"></script>
-  <script src="/assets/admin/vendors/js/vendor.bundle.addons.js"></script>
 
         <script type="text/javascript">
           
