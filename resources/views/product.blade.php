@@ -26,7 +26,7 @@
                 <div class="wpb_column vc_column_container col-sm-4" style="margin-top:20px">
                     <div class="wpb_wrapper">
                         <div class="pricing_plan white_section">
-                            <div class="stretchy_wrapper ratio_16-9">
+                            <div class="stretchy_wrapper ratio_16-9" style="height:350px">
                                 <div  class="pricing_plan_photo">
                                 <img src="{{$key->image}}" id="bg" alt="" style="width:100%; height:100%"></div>
                                 <div class="heart beating">
