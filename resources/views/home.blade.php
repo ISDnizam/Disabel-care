@@ -278,7 +278,7 @@
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                                 <h5>Produk : </h5>
-                            Kaki Palsu Atas Lutut<br /> Kaki Palsu Bawah Lutut<br />Kaki Palsu Tepat Mata Kaki<br />Kaki Palsu Tepat Lutut <br />
+                                Kaki Palsu Tepat Pinngul<br /> Kaki Palsu Atas Lutut<br />Kaki Palsu Tepat Lutut<br /> Kaki Palsu Bawah Lutut<br />Kaki Palsu Tepat Mata Kaki <br />
 
                                 <a href="/product/Kaki-Palsu" class="btn btn-secondary with-icon icon-right" title="" target="_self">
                                     Lihat Produk
@@ -297,7 +297,7 @@
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                             <h5>Produk : </h5>
-                                Tangan Palsu Tepat Pergelangan<br />	Tangan Palsu Bawah Siku <br />Tangan Palsu Tepat Siku <br />Tangan Palsu Atas Siku <br />
+                            Tangan Palsu Tepat Bahu<br /> Tangan Palsu Atas Siku <br /> Tangan Palsu Tepat Siku <br />	Tangan Palsu Bawah Siku <br />Tangan Palsu Tepat Pergelangan<br />
                                 <a href="/product/Tangan-Palsu" class="btn btn-warning with-icon icon-right" title="" target="_self">
                                     Lihat Produk
                                     <i class="fa fa-arrow-right"></i>
@@ -317,7 +317,7 @@
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                             <h5>Produk : </h5>
-                            AFO <br />KAFO <br />HKAFO <br />Sepatu Orthopedi<br />
+                            AFO <br />KAFO <br />HKAFO <br />PTB Brace<br />Sepatu Orthopedi<br />
                                 <a href="/product/Alat-Bantu-Orthopedi" class="btn btn-success with-icon icon-right" title="" target="_self">
                                     Lihat Produk
 
