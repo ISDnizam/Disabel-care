@@ -6,7 +6,7 @@
             <!-- ============================ SLIDE ==========================-->
 
             <div class="stretchy_wrapper ratio_slider">
-                <div style="background-image: url(/assets/theme/images/doctor_blue.jpg);" aria-hidden="true" class="item">
+                <div style="background-image: url(/assets/images/slide1.jpg);" aria-hidden="true" class="item">
                     <div class="container">
                         <div class="caption caption_right caption_fancy text-left">
                             <div class="inner black_section transparent_film animated slideInUp">
@@ -31,7 +31,7 @@
             <!-- ============================ SLIDE ==========================-->
 
             <div class="stretchy_wrapper ratio_slider">
-                <div style="background-image: url(/assets/theme/images/doctor_white.jpg);" aria-hidden="true" class="item">
+                <div style="background-image: url(/assets/images/slide2.jpg);" aria-hidden="true" class="item">
                     <div class="container">
                         <div class="caption caption_left caption_fancy text-left">
                             <div class="inner black_section transparent_film animated slideInUp">
@@ -191,7 +191,7 @@
                         <div class="col-sm-12 col-md-12">
                             <div class="team_member teaser_box centered same_height_col white_section">
                                 <a
-                                    style="background-image: url('/assets/theme/images/doctor-001.jpg');"
+                                    style="background-image: url('/assets/images/profile.jpg');"
                                     data-colorset="white_section"
                                     class="linkify figure stretchy_wrapper ratio_1-1"
                                 ></a>
@@ -278,7 +278,7 @@
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                                 <h5>Produk : </h5>
-                            Kaki palsu atas lutut<br /> kaki palsu bawah lutut<br />Kaki Palsu Tepat Mata Kaki<br />Kaki Palsu Tepat Lutut <br />
+                            Kaki Palsu Atas Lutut<br /> Kaki Palsu Bawah Lutut<br />Kaki Palsu Tepat Mata Kaki<br />Kaki Palsu Tepat Lutut <br />
 
                                 <a href="/product/Kaki-Palsu" class="btn btn-secondary with-icon icon-right" title="" target="_self">
                                     Lihat Produk
@@ -317,7 +317,7 @@
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                             <h5>Produk : </h5>
-                            Jari Palsu <br />AFO <br />Sepatu Orthopedi<br />xxx <br />
+                            AFO <br />KAFO <br />HKAFO <br />Sepatu Orthopedi<br />
                                 <a href="/product/Alat-Bantu-Orthopedi" class="btn btn-success with-icon icon-right" title="" target="_self">
                                     Lihat Produk
 

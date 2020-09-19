@@ -25,7 +25,11 @@
                     <article id="terminology-291" class="post post-291 terminology type-terminology status-publish has-post-thumbnail hentry term-topic-health-library">
                         <div class="post_figure_and_info">
                             <div class="post_sub">
-                                <span class="post_info post_date"><i class="fa fa-calendar"></i>{{$detail->created_at}}</span><span class="post_info post_categories">{{$detail->productCategory->category_name}}</span><span class="post_info post_author">Rp {{number_format($detail->price,0)}}</span>
+                                <span class="post_info post_date"><i class="fa fa-calendar"></i>{{$detail->created_at}}</span>
+                                <span class="post_info post_categories">{{$detail->productCategory->category_name}}</span>
+        						@if($detail->price!=0)
+                                <span class="post_info post_author">Rp {{number_format($detail->price,0)}}</span>
+                                @endif
                             </div>
                         </div>
                         <p>
