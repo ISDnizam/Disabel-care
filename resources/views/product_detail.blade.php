@@ -32,9 +32,9 @@
                                 @endif
                             </div>
                         </div>
-                        <div class="figure hidden-md hidden-lg">
+                        <div class="hidden-md hidden-lg">
                             <a href="{{$detail->image}}" debug title="" target="">
-                                <div class="figure stretchy_wrapper ratio_16-9">  <img src="{{$detail->image}}" id="bg" alt="" style="width:100%; height:100%"></div>
+                                <div style="height:250px">  <img src="{{$detail->image}}" id="bg" alt="" style="width:100%; height:100%"></div>
                             </a>
                         </div>
                         <p>
