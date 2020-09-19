@@ -27,7 +27,8 @@
                     <div class="wpb_wrapper">
                         <div class="pricing_plan white_section">
                             <div class="stretchy_wrapper ratio_16-9">
-                                <div style="background-image: url('{{$key->image}}');" class="pricing_plan_photo"></div>
+                                <div  class="pricing_plan_photo">
+                                <img src="{{$key->image}}" id="bg" alt="" style="width:100%; height:100%"></div>
                                 <div class="heart beating">
                                     <div class="heart-inner"><div class="heart-label"></div></div>
                                 </div>

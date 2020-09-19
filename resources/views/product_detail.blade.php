@@ -32,6 +32,11 @@
                                 @endif
                             </div>
                         </div>
+                        <div class="figure hidden-md hidden-lg">
+                            <a href="{{$detail->image}}" debug title="" target="">
+                                <div class="figure stretchy_wrapper ratio_16-9">  <img src="{{$detail->image}}" id="bg" alt="" style="width:100%; height:100%"></div>
+                            </a>
+                        </div>
                         <p>
                         {!!$detail->description!!}
                         </p>
@@ -39,13 +44,13 @@
                 </div>
                 <div id="sidebar" class="col-sm-4 col-md-4">
                     <!-- ===================== MULTIBOX ========================-->
-                    <div class="widget plethora-multibox-widget bg_vcenter">
+                    <div class="widget plethora-multibox-widget bg_vcenter hidden-xs">
                         <div class="">
                             <!-- ========================== TEASER BOX ==========================-->
                             <div class="teaser_box wpb_content_element text-left skincolored_section with_button">
                                 <div class="figure">
-                                    <a href="http://plethorathemes.com/healthflex/visit-guide/" debug title="" target="">
-                                        <div class="figure stretchy_wrapper ratio_16-9" style="background-image: url('{{$detail->image}}');"></div>
+                                    <a href="{{$detail->image}}" debug title="" target="">
+                                        <div class="figure stretchy_wrapper ratio_16-9">  <img src="{{$detail->image}}" id="bg" alt="" style="width:100%; height:100%"></div>
                                     </a>
                                 </div>
                             </div>
