@@ -41,7 +41,7 @@
                         {!!$detail->description!!}
                         
 
-                        <a href="https://wa.me/+6285800799904?text=Hallo,%20saya%20ingin%memesan%20{{ $title }}" debug class="btn btn-primary with-icon" title="" target="_self">
+                        <a href="https://wa.me/+6285800799904?text=Hallo,%20saya%20ingin%20memesan%20{{ $title }}" debug class="btn btn-primary with-icon" title="" target="_self">
                             Pesan Sekarang
                         </a>
                     </article>
