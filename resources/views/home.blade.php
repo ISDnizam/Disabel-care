@@ -185,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="wpb_column vc_column_container col-sm-4 text-left hidden-xs">
+                <div class="wpb_column vc_column_container col-sm-4 text-left">
                     <div class="wpb_wrapper">
                         <!-- ========================== TEASER BOX ==========================-->
                         <div class="col-sm-12 col-md-12">
