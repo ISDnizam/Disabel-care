@@ -33,10 +33,10 @@
                             <div class="col-sm-6 col-md-4">
                                 <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
                                     <a
-                                        href=""
+                                        href="{{$key->full_path}}"
                                         style="background-image: url('{{$key->full_path}}');"
                                         data-colorset="white_section"
-                                        class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                                        class="linkify figure stretchy_wrapper ratio_1-1" target="_blank"></a>
 
                                     <div class="content boxed with_button">
                                         <div class="hgroup">
