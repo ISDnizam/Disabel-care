@@ -35,7 +35,7 @@
                                     <a
                                         href="{{$key->full_path}}"
                                         class="linkify figure stretchy_wrapper ratio_1-1" target="_blank">
-                                        <img src="{{$key->full_path}}" id="bg" alt="" style="width:100%; height:100%">
+                                        <img src="{{$key->full_path}}"  alt="" style="width:100%; height:100%">
                                         </a>
 
                                     <div class="content boxed with_button">
