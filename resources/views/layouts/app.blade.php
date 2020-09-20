@@ -8,7 +8,7 @@
 <meta name="HandheldFriendly" content="true">
 <meta name="apple-touch-fullscreen" content="yes">
         <meta name="robots" content="all,index,follow" />
-        <meta name="description" content="Disabel Care Kaki Palsu merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia khusunya kaki palsu, tangan palsu" />
+        <meta name="description" content="Difabel Care Kaki Palsu merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia khusunya kaki palsu, tangan palsu" />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     
@@ -16,9 +16,9 @@
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta property="og:locale" content="id_ID" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Disabel Care Kaki Palsu" />
-        <meta property="og:description" content="Disabel Care Kaki Palsu merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia khusunya kaki palsu, tangan palsu" />
-        <meta property="og:url" content="https://disabelcarekakipalsu.com" />
+        <meta property="og:title" content="Difabel Care Kaki Palsu" />
+        <meta property="og:description" content="Difabel Care Kaki Palsu merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia khusunya kaki palsu, tangan palsu" />
+        <meta property="og:url" content="https://difabelcarekakipalsu.com" />
 
         <title>Difabel Care- Jual Kaki Palsu</title>
         <link rel="stylesheet" id="wp-block-library-css" href="/assets/theme/css/style.min.css?ver=5.3.4" type="text/css" media="all" />
@@ -78,7 +78,7 @@
                         <div class="container">
                             <div class="logo">
                                 <a href="/" class="brand">
-                                    <img src="/assets/images/logo.png" alt="Disabel Care" />
+                                    <img src="/assets/images/logo.png" alt="Difabel Care" />
                                 </a>
                             </div>
                             <!-- <a title="" href="#" class="social_links"><i class="fa fa-user"></i></a> -->
@@ -139,11 +139,11 @@
                                     <p><img src="/assets/images/logo.png" alt=""/></p>
 
                                     <p>
-                                        Kami adalah pengrajin & menjual kaki palsu bawah lutut dan kaki palsu atas lutut yang sudah berpengalaman membuat produk berkualitas terbaik namun dengan harga yang terjangkau.
-                                        <br />
-                                        <br />
+                                    Kami adalah Profesi Ortotis Prostetis Tenaga Biomedical Enginering, Pelayanan Kesehatan dalam pembuatan Kaki Palsu, Tangan Palsu & Alat Bantu Orthopedi yang telah Tersertifikasi
 
-                                        Produk kaki palsu modern kami sudah digunakan oleh banyak orang dengan kebutuhan yang berbeda-beda dan mendapatkan respon yang sangat baik.
+                                        <br />
+                                        <br />
+                                        Produk Kaki Palsu, Tangan Palsu & Alat Bantu Orthopedi kami sudah banyak digunakan oleh banyak orang. Berkualitas terbaik namun dengan harga terjangkau. Produk kami selalu disesuaikan dengan perkembangan dunia medis.
                                     </p>
                                 </div>
                             </aside>
@@ -156,7 +156,7 @@
                                 <div class="menu-quick-links-container">
                                     <ul id="menu-quick-links" class="menu">
                                         @foreach ($phone as $key => $value)
-                                       <li id="menu-item-1785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1785">{{ $value }}</li>
+                                       <li id="menu-item-1785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1785">{{ str_replace('+62','0',$value) }}</li>
                                         @endforeach
                                         <li id="menu-item-1785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1785"><a href="">{{$email->value}}</a></li>
                                     </ul>
