@@ -236,10 +236,10 @@
                             <ul class="slides" id="57e1639ace947">
                                 @foreach($testimonial as $key)
                                 <li>
+                                <div class="name">
+
                                 <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
 
-                                    <div class="name">
-                                        <strong>{{$key->name}}</strong>
                                     </div>
                                 </li>
                                 @endforeach
