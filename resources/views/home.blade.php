@@ -234,28 +234,10 @@
 
                         <div class="testimonial testimonial-slider">
                             <ul class="slides" id="57e1639ace947">
-                            <div class="team_members_grid row">
-                            <li>
-
-                    						                            <div class="col-sm-6 col-md-4">
-                                <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
-                                    <a
-                                        href="/assets/images/20200103_103818.jpg"
-                                        class="linkify figure stretchy_wrapper ratio_1-1" target="_blank">
-                                        <img src="/assets/images/20200103_103818.jpg"  alt="" style="width:100%; height:100%">
-                                        </a>
-
-                                    <div class="content boxed with_button">
-                                        <div class="hgroup">
-                                            <strong>Gambar</strong>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                                </li>
-                            <li>
-
-                                            						                            <div class="col-sm-6 col-md-4">
+                                @foreach($testimonial as $key)
+                                <li>
+                                  
+                                <div class="col-sm-6 col-md-4">
                                 <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
                                     <a
                                         href="/assets/images/20200322_1200281.jpg"
@@ -270,28 +252,11 @@
                                     </div>
                                 </div>
                             </div>
-                                </li>
-                                      
-                            <li>
-                                            						                            <div class="col-sm-6 col-md-4">
-                                <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
-                                    <a
-                                        href="/assets/images/20200518_034208.jpg"
-                                        class="linkify figure stretchy_wrapper ratio_1-1" target="_blank">
-                                        <img src="/assets/images/20200518_034208.jpg"  alt="" style="width:100%; height:100%">
-                                        </a>
-
-                                    <div class="content boxed with_button">
-                                        <div class="hgroup">
-                                            <strong>Gambar</strong>
-                                        </div>
+                                    <div class="name">
+                                        <strong>{{$key->name}}</strong>
                                     </div>
-                                </div>
-                            </div>
                                 </li>
-
-
-                                </div>
+                                @endforeach
 
                             </ul>
                         </div>
