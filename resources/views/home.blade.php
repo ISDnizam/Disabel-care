@@ -268,7 +268,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="wpb_column vc_column_container col-sm-4">
                     <div class="wpb_wrapper">
                         <div class="pricing_plan skincolored_section">
@@ -278,10 +277,23 @@
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                                 <h5>Produk : </h5>
-                                <a href="/sub-product/Kaki-Palsu-Bawah-Lutut">
-                                Kaki Palsu Tepat Pinngul
+                                <a href="/product/detail/Kaki_Palsu_Tepat_Pinggul_(Modular)" style="color:white">
+                                Kaki Palsu Tepat Pinggul
                                 </a><br /> 
-                                Kaki Palsu Atas Lutut<br />Kaki Palsu Tepat Lutut<br /> Kaki Palsu Bawah Lutut<br />Kaki Palsu Tepat Mata Kaki <br />
+                                <a href="/sub-product/Kaki-Palsu-Atas-Lutut" style="color:white">
+                                Kaki Palsu Atas Lutut
+                                </a><br /> 
+                                <a href="/sub-product/Kaki-Palsu-Tepat-Lutut" style="color:white">
+                                Kaki Palsu Tepat Lutut
+                                </a><br />
+                                <a href="/sub-product/Kaki-Palsu-Bawah-Lutut" style="color:white">
+
+                                 Kaki Palsu Bawah Lutut
+                                 </a><br />
+                                <a href="/sub-product/Kaki-Palsu-Tepat-Mata-Kaki" style="color:white">
+
+                                 Kaki Palsu Tepat Mata Kaki 
+                                 </a><br />
 
                                 <a href="/product/Kaki-Palsu" class="btn btn-secondary with-icon icon-right" title="" target="_self">
                                     Lihat Produk
