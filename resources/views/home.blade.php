@@ -231,6 +231,7 @@
                 <div class="wpb_column vc_column_container col-sm-12 col-md-8 text-center">
                     <div class="wpb_wrapper">
                         <!-- ========================== TESTIMONIALS ==========================-->
+                        <div class="team_members_grid row">
 
                         <div class="testimonial testimonial-slider">
                             <ul class="slides" id="57e1639ace947">
@@ -264,6 +265,7 @@
                                 @endforeach
 
                             </ul>
+                        </div>
                         </div>
 
                         <!-- END======================= TESTIMONIALS ==========================-->
