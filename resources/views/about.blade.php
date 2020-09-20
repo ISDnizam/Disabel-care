@@ -64,7 +64,7 @@
     </section>
 
     <section
-        style="background-image: url('/assets/theme/images/doctor_blue_left.jpg');"
+        style="background-image: url('/assets/images/slide.jpg');"
         class="vc_row wpb_row vc_row-fluid secondary_section text-center transparent_film vcenter bgimage bg_vcenter"
     >
         <div class="container">
