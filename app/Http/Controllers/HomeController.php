@@ -107,7 +107,6 @@ class HomeController extends Controller
         $query->where('category_name', '=', $category);
         })->where('sub_category', '!=', '')->get();
 
-        $data['sub_product'] = Product::whereSubCategory($subCategory)->get();
 
         $data['productCategory'] = ProductCategory::get();
         $phone = Settings::whereName('phone')->first();
