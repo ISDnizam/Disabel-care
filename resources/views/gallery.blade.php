@@ -34,7 +34,7 @@
                                 <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
                                     <a
                                         href="{{$key->full_path}}"
-                                        class="linkify figure stretchy_wrapper ratio_1-1" target="_blank">
+                                        class="linkify figure stretchy_wrapper ratio_1-1" target="_blank" style="height:450px">
                                         <img src="{{$key->full_path}}"  alt="" style="width:100%; height:100%">
                                         </a>
 
