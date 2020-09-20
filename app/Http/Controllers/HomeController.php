@@ -113,6 +113,26 @@ class HomeController extends Controller
         return view('product',$data);
     }
 
+
+    public function sub_product($subCategory)
+    {
+        $subCategory= str_replace('-',' ',$subCategory);
+        $data['category']= $subCategory;
+        $data['title'] = $subCategory;
+        $data['product'] = Product::whereSubCategory($subCategory)->get();
+      
+        $data['productCategory'] = ProductCategory::get();
+        $phone = Settings::whereName('phone')->first();
+        $address = Settings::whereName('address')->first();
+        $social_media = Settings::whereName('social_media')->first();
+        $data['email'] = Settings::whereName('email')->first();
+        $data['phone'] = json_decode($phone->value);
+        $data['address'] = json_decode($address->value);
+        $data['social_media'] = json_decode($social_media->value);
+        return view('sub_product',$data);
+    }
+
+
     public function detail($title){
     $title= str_replace('_',' ',$title);
     $data['title'] = $title;

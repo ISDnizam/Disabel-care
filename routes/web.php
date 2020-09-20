@@ -21,6 +21,7 @@ Route::get('/about-us', 'HomeController@about')->name('about');
 Route::get('/contact', 'HomeController@contact')->name('contact');
 Route::get('/gallery', 'HomeController@gallery')->name('gallery');
 Route::get('/product/{id}', 'HomeController@product')->name('product');
+Route::get('/sub-product/{id}', 'HomeController@sub_product')->name('sub_product');
 Route::get('/product/detail/{id}', 'HomeController@detail')->name('detailProduct');
 
 
