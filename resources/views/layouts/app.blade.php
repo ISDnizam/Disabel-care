@@ -2,12 +2,17 @@
 <html lang="id">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-touch-fullscreen" content="yes">
         <meta name="robots" content="all,index,follow" />
         <meta name="description" content="Disabel Care Kaki Palsu merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia khusunya kaki palsu, tangan palsu" />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    
+        <link rel="shortcut icon" href="/favicon.ico">
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta property="og:locale" content="id_ID" />
         <meta property="og:type" content="article" />
@@ -37,6 +42,7 @@
         <script type="text/javascript" src="/assets/theme/js/jquery-migrate.min.js?ver=1.4.1"></script>
         <script type="text/javascript" src="/assets/theme/js/jquery.blockUI.min.js?ver=2.70"></script>
         <script type="text/javascript" src="/assets/theme/js/modernizr.custom.48287.js?ver=5.3.4"></script>
+         <link rel="shortcut icon" href="/favicon.ico">
     </head>
 
         <body class="home page-template-default page page-id-145 theme-healthflex woocommerce-no-js wpb-js-composer js-comp-ver-6.1 vc_responsive sticky_header">
@@ -106,6 +112,7 @@
                                         <a href="/admin/product">{{ Auth::user()->name }}</a>
                                     </li>
                                     @endguest
+                                     
                                 </ul>
                             </div>
 
@@ -201,6 +208,16 @@
                 </div>
             </div>
 
+          <a href="https://wa.me/+6285800799904?text=Hallo, saya ingin berkonsultasi dengan bapak, terimakasih" id="return-to-toppp" style="position:fixed;bottom:20px;width:50px;height:50px;border-radius:50px;z-index:999999;left:30px;
+            background: #48c51f;">
+            <i class="fa fa-whatsapp fa-lg" style="color:#fff;margin: 0;position:relative;left: 13px;top: 3px;font-size: 30px;"></i></a>
+            
+             <a  href="tel:085800799904" id="return-to-toppp" style="position:fixed;bottom:20px;width:50px;height:50px;border-radius:50px;z-index:999999;left:45%;
+            background:#3e61c3;" class=" hidden-md hidden-lg">
+            <i class="fa fa-phone" style="color:#fff;margin: 0;position:relative;left: 25%;top: 3px;font-size: 30px;"></i></a>
+            
+            
+            
             <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
             <script type="text/html" id="wpb-modifications"></script>
             <script type="text/javascript" src="/assets/theme/js/jquery.ui.totop.js?ver=5.3.4"></script>

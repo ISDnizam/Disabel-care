@@ -1,8 +1,10 @@
 @extends('layouts.app') 
 @section('content')
 <div class="head_panel">
+                  <a href="https://www.google.com/maps/place/Difabel+Care+Kaki+Palsu+Jabodetabek/@-6.219159,106.8964238,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x9c1f10b63a065469!8m2!3d-6.219159!4d106.8986125">
                 <div id="map" class="map"></div>
-                <div class="hgroup">
+                </a>
+                <div class="hgroup hidden-xs">
                     <div class="title diagonal-bgcolor-trans">
                         <div class="container">
                             <h1>{{ $title }}</h1>
@@ -41,7 +43,8 @@
                                             <div class="wpb_text_column wpb_content_element">
                                                 <div class="wpb_wrapper">
                                                    @foreach($phone as $key=>$value)
-                                                    <p><strong>{{$value}} (<a href="tel:{{$value}}">Phone</a>/<a href="https://wa.me/{{$value}}?text=Hallo,%20saya%20ingin%berkonsultasi%20">Whatsapp</a>)</strong></p>
+                                                   <p><strong>{{$value}} (<a href="tel:{{$value}}">Phone</a>/<a href="https://wa.me/{{$value}}?text=Hallo,%20saya%20ingin%20berkonsultasi%20">Whatsapp</a>)</strong></p>
+                                                  
                                                     @endforeach
                                                     <p><strong>{{$email->value}}</strong></p>
                                                     <p>
@@ -55,6 +58,7 @@
                                                         </strong>
                                                     </p>
 
+ 
                                                     <aside id="plethora-aboutus-widget-2" class="widget aboutus-widget">
                                                         <div class="pl_about_us_widget  ">
                                                             <p class="social">
@@ -63,7 +67,12 @@
                                                             @endforeach
                                                             </p>
                                                         </div>
+                                                                        <a href="https://www.google.com/maps/place/Difabel+Care+Kaki+Palsu+Jabodetabek/@-6.219159,106.8964238,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x9c1f10b63a065469!8m2!3d-6.219159!4d106.8986125" debug class="btn btn-primary with-icon" title="" target="_self">
+                                            Lihat Lokasi di Google Map
+                                        </a>
                                                         </aside>
+                                                        
+                                              
                                                 </div>
                                             </div>
                                         </div>
