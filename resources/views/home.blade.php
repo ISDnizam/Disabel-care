@@ -219,9 +219,9 @@
                     <div class="wpb_wrapper">
                         <div class="vc_empty_space" style="height: 80px;"><span class="vc_empty_space_inner"></span></div>
                         <div class="section_header subtitle_bottom fancy text-center">
-                            <h2 style="text-align: center;">Testimoni Pelanggan</h2>
+                            <h2 style="text-align: center;">Gallery Produk</h2>
 
-                            <p>Berbagai testimoni dari pelanggan kami</p>
+                            <p>Berbagai gallery dari pelanggan kami</p>
                         </div>
                     </div>
                 </div>
@@ -237,7 +237,7 @@
                                 @foreach($testimonial as $key)
                                 <li>
                                     <div class="name" style="height:450px">
-                                <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
+                                <img src="{{$key->full_path}}"  alt="" style="width:100%; height:100%">
 
                                     </div>
                                 </li>
