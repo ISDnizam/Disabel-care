@@ -219,9 +219,9 @@
                     <div class="wpb_wrapper">
                         <div class="vc_empty_space" style="height: 80px;"><span class="vc_empty_space_inner"></span></div>
                         <div class="section_header subtitle_bottom fancy text-center">
-                            <h2 style="text-align: center;">Gallery</h2>
+                            <h2 style="text-align: center;">Testimoni Pelanggan</h2>
 
-                            <p>Berbagai foto dari pelanggan kami</p>
+                            <p>Berbagai testimoni dari pelanggan kami</p>
                         </div>
                     </div>
                 </div>
@@ -232,12 +232,11 @@
                     <div class="wpb_wrapper">
                         <!-- ========================== TESTIMONIALS ==========================-->
 
-                        <div class="testimonial testimonial-slider" style="height:450px">
+                        <div class="testimonial testimonial-slider">
                             <ul class="slides" id="57e1639ace947">
                                 @foreach($testimonial as $key)
                                 <li>
                                     <div class="name">
-
                                 <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
 
                                     </div>
