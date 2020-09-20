@@ -32,12 +32,7 @@
 						@if($key->type=='image')
                             <div class="col-sm-6 col-md-4">
                                 <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
-                                    <a
-                                        href="{{$key->full_path}}"
-                                        class="linkify figure stretchy_wrapper ratio_1-1" target="_blank">
                                         <img src="{{$key->full_path}}"  alt="" style="width:100%; height:100%">
-                                        </a>
-
                                     <div class="content boxed with_button">
                                         <div class="hgroup">
                                             <strong>{{$key->name}}</strong>

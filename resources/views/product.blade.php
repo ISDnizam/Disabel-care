@@ -39,7 +39,7 @@
                             </div>
                             <div class="the_offerings">
 
-                                <a href="/product/detail/{{str_replace(' ','-',$key->title)}}" class="btn btn-primary with-icon icon-right" title="" target="_self">
+                                <a href="/product/detail/{{str_replace(' ','_',$key->title)}}" class="btn btn-primary with-icon icon-right" title="" target="_self">
                                         Lihat Detail
                                     <i class="fa fa-caret-right"></i>
                                 </a>

@@ -113,7 +113,7 @@ class HomeController extends Controller
     }
 
     public function detail($title){
-    $title= str_replace('-',' ',$title);
+    $title= str_replace('_',' ',$title);
     $data['title'] = $title;
     $data['detail'] = Product::with("productCategory")->where('title','=',$title)->first();
     $data['otherProduct'] = Product::with("productCategory")->where('id_product_category','=',$data['detail']->id_product_category)->get();

@@ -67,7 +67,7 @@
                         <h4>Produk Lainnya</h4>
                         <ul>
                             @foreach($otherProduct as $key)
-                            <li class="cat-item cat-item-9" style="border-bottom:1px solid #dadada"><a href="/product/detail/{{str_replace(' ','-',$key->title)}}" title='{{$key->title}}'>{{$key->title}}</a></li>
+                            <li class="cat-item cat-item-9" style="border-bottom:1px solid #dadada"><a href="/product/detail/{{str_replace(' ','_',$key->title)}}" title='{{$key->title}}'>{{$key->title}}</a></li>
                             @endforeach
                         </ul>
                     </aside>
