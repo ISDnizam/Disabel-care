@@ -41,7 +41,7 @@
                                             <div class="wpb_text_column wpb_content_element">
                                                 <div class="wpb_wrapper">
                                                    @foreach($phone as $key=>$value)
-                                                    <p><strong>{{$value}} (Phone/Whatsapp)</strong></p>
+                                                    <p><strong>{{$value}} (<a href="tel:{{$value}}">Phone</a>/<a href="https://wa.me/{{$value}}?text=Hallo,%20saya%20ingin%berkonsultasi%20">Whatsapp</a>)</strong></p>
                                                     @endforeach
                                                     <p><strong>{{$email->value}}</strong></p>
                                                     <p>
