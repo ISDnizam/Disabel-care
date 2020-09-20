@@ -105,7 +105,7 @@ class HomeController extends Controller
         if($category=='Kaki Palsu'){
             $k =["27","17","18","16"];
         }elseif($category=='Tangan Palsu'){
-            $k =["27","17","18","16"];
+            $k =["5","6"];
         }else{
             $k =["35"];
         }
