@@ -231,14 +231,13 @@
                 <div class="wpb_column vc_column_container col-sm-12 col-md-8 text-center">
                     <div class="wpb_wrapper">
                         <!-- ========================== TESTIMONIALS ==========================-->
-                        <div class="team_members_grid row">
 
-                        <div class="testimonial testimonial-slider">
+                        <div class="testimonial testimonial-slider" style="height:450px">
                             <ul class="slides" id="57e1639ace947">
                                 @foreach($testimonial as $key)
                                 <li>
                                 <div class="name">
-                                <div class="col-sm-6 col-md-4">
+                                <!-- <div class="col-sm-6 col-md-4">
                                 <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
                                 <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
 
@@ -257,15 +256,14 @@
 
 
                                 </div>
-                            </div>
-                                <!-- <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%"> -->
+                            </div> -->
+                                <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
 
                                     </div>
                                 </li>
                                 @endforeach
 
                             </ul>
-                        </div>
                         </div>
 
                         <!-- END======================= TESTIMONIALS ==========================-->
