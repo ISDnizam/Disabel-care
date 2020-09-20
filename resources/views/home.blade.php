@@ -312,7 +312,22 @@
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                             <h5>Produk : </h5>
-                            Tangan Palsu Tepat Bahu<br /> Tangan Palsu Atas Siku <br /> Tangan Palsu Tepat Siku <br />	Tangan Palsu Bawah Siku <br />Tangan Palsu Tepat Pergelangan<br />
+                            <a href="/detail/Tangan_Palsu_Tepat_Bahu_(Glove_Silicon)" style="color:white">
+
+                            Tangan Palsu Tepat Bahu
+                            </a><br /> 
+                            <a href="/sub-product/Tangan-Palsu-Atas-Siku" style="color:white">
+
+                            Tangan Palsu Atas Siku </a><br /> 
+                            <a href="/detail/Tangan_Palsu_Tepat_Siku_(Glove_Silicon)" style="color:white">
+
+                            Tangan Palsu Tepat Siku </a><br />	
+                            <a href="/sub-product/Tangan-Palsu-Bawah-Siku" style="color:white">
+
+                            Tangan Palsu Bawah Siku</a> <br />
+                            <a href="/detail/Tangan_Palsu_Tepat_Pergelangan_(Glove_Silicon)" style="color:white">
+
+                            Tangan Palsu Tepat Pergelangan</a><br />
                                 <a href="/product/Tangan-Palsu" class="btn btn-warning with-icon icon-right" title="" target="_self">
                                     Lihat Produk
                                     <i class="fa fa-arrow-right"></i>
@@ -332,7 +347,16 @@
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                             <h5>Produk : </h5>
-                            AFO <br />KAFO <br />HKAFO <br />PTB Brace<br />Sepatu Orthopedi<br />
+                            <a href="/product/Alat-Bantu-Orthopedi" style="color:white">
+                            AFO </a><br />
+                            <a href="/product/Alat-Bantu-Orthopedi" style="color:white">
+                            KAFO</a> <br />
+                            <a href="/product/Alat-Bantu-Orthopedi" style="color:white">
+                            HKAFO</a> <br />
+                            <a href="/product/Alat-Bantu-Orthopedi" style="color:white">
+                            PTB Brace</a><br />
+                            <a href="/product/Alat-Bantu-Orthopedi" style="color:white">
+                            Sepatu Orthopedi</a><br />
                                 <a href="/product/Alat-Bantu-Orthopedi" class="btn btn-success with-icon icon-right" title="" target="_self">
                                     Lihat Produk
 
