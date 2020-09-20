@@ -27,7 +27,6 @@
                     <h4>Foto</h4>
                     <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
                 </div>
-                <div class="team_members_grid row">
                     @foreach($gallery as $key)
 						@if($key->type=='image')
                             <div class="col-sm-6 col-md-4">
@@ -42,7 +41,6 @@
                             </div>
                         @endif
                     @endforeach
-                </div>
 
                 <div style="margin-top: 80px;" class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text">
                     <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
