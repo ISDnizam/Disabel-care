@@ -1,7 +1,7 @@
 @extends('layouts.app') @section('content')
 
 <div class="head_panel">
-    <div style="background-image: url(/assets/theme/images/slider-6.jpg);" class="full_width_photo bg_vtop parallax-window">
+    <div style="background-image: url(/assets/theme/images/slider-8.jpg);" class="full_width_photo bg_vtop parallax-window">
         <div class="hgroup">
             <div class="title diagonal-bgcolor-trans">
                 <div class="container">
