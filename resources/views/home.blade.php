@@ -312,20 +312,20 @@
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                             <h5>Produk : </h5>
-                            <a href="/detail/Tangan_Palsu_Tepat_Bahu_(Glove_Silicon)" style="color:white">
+                            <a href="/product/detail/Tangan_Palsu_Tepat_Bahu_(Glove_Silicon)" style="color:white">
 
                             Tangan Palsu Tepat Bahu
                             </a><br /> 
                             <a href="/sub-product/Tangan-Palsu-Atas-Siku" style="color:white">
 
                             Tangan Palsu Atas Siku </a><br /> 
-                            <a href="/detail/Tangan_Palsu_Tepat_Siku_(Glove_Silicon)" style="color:white">
+                            <a href="/product/detail/Tangan_Palsu_Tepat_Siku_(Glove_Silicon)" style="color:white">
 
                             Tangan Palsu Tepat Siku </a><br />	
                             <a href="/sub-product/Tangan-Palsu-Bawah-Siku" style="color:white">
 
                             Tangan Palsu Bawah Siku</a> <br />
-                            <a href="/detail/Tangan_Palsu_Tepat_Pergelangan_(Glove_Silicon)" style="color:white">
+                            <a href="/product/detail/Tangan_Palsu_Tepat_Pergelangan_(Glove_Silicon)" style="color:white">
 
                             Tangan Palsu Tepat Pergelangan</a><br />
                                 <a href="/product/Tangan-Palsu" class="btn btn-warning with-icon icon-right" title="" target="_self">
