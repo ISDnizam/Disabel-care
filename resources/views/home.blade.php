@@ -219,9 +219,9 @@
                     <div class="wpb_wrapper">
                         <div class="vc_empty_space" style="height: 80px;"><span class="vc_empty_space_inner"></span></div>
                         <div class="section_header subtitle_bottom fancy text-center">
-                            <h2 style="text-align: center;">Testimoni Pelanggan</h2>
+                            <h2 style="text-align: center;">Gallery</h2>
 
-                            <p>Berbagai testimoni dari pelanggan kami</p>
+                            <p>Berbagai foto dari pelanggan kami</p>
                         </div>
                     </div>
                 </div>
@@ -236,27 +236,8 @@
                             <ul class="slides" id="57e1639ace947">
                                 @foreach($testimonial as $key)
                                 <li>
-                                <div class="name">
-                                <!-- <div class="col-sm-6 col-md-4">
-                                <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
-                                <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
+                                    <div class="name">
 
-
-                                </div>
-                                <div class="col-sm-6 col-md-4">
-                                <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
-                                <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
-
-
-                                </div>
-
-                                <div class="col-sm-6 col-md-4">
-                                <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
-                                <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
-
-
-                                </div>
-                            </div> -->
                                 <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
 
                                     </div>
