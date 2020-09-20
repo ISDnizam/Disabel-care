@@ -22,6 +22,32 @@
     <section class="vc_row wpb_row vc_row-fluid text-center separator_bottom sep_angled_positive_bottom">
         <div class="container">
             <div class="row">
+            @foreach($sub_product as $key)
+                <div class="wpb_column vc_column_container col-sm-4" style="margin-top:20px">
+                    <div class="wpb_wrapper">
+                        <div class="pricing_plan white_section">
+                            <div class="stretchy_wrapper ratio_16-9" style="height:350px">
+                                <div  class="pricing_plan_photo">
+                                <img src="{{$key->image}}" id="bg" alt="" style="width:100%; height:100%"></div>
+                                <div class="heart beating">
+                                    <div class="heart-inner"><div class="heart-label"></div></div>
+                                </div>
+                            </div>
+
+                            <div class="plan_title skincolored_section" style="padding:5px">
+                                <h5>{{$key->sub_category}}</h5>
+                            </div>
+                            <div class="the_offerings">
+
+                                <a href="/sub-product/{{str_replace(' ','_',$key->sub_category)}}" class="btn btn-primary with-icon icon-right" title="" target="_self">
+                                        Lihat Detail
+                                    <i class="fa fa-caret-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              @endforeach
                @foreach($product as $key)
                 <div class="wpb_column vc_column_container col-sm-4" style="margin-top:20px">
                     <div class="wpb_wrapper">
