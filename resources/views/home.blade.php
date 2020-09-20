@@ -278,7 +278,10 @@
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                                 <h5>Produk : </h5>
-                                Kaki Palsu Tepat Pinngul<br /> Kaki Palsu Atas Lutut<br />Kaki Palsu Tepat Lutut<br /> Kaki Palsu Bawah Lutut<br />Kaki Palsu Tepat Mata Kaki <br />
+                                <a href="/sub-product/Kaki-Palsu-Bawah-Lutut">
+                                Kaki Palsu Tepat Pinngul
+                                </a><br /> 
+                                Kaki Palsu Atas Lutut<br />Kaki Palsu Tepat Lutut<br /> Kaki Palsu Bawah Lutut<br />Kaki Palsu Tepat Mata Kaki <br />
 
                                 <a href="/product/Kaki-Palsu" class="btn btn-secondary with-icon icon-right" title="" target="_self">
                                     Lihat Produk

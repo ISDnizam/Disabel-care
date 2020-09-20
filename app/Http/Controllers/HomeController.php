@@ -100,8 +100,15 @@ class HomeController extends Controller
         $data['title'] = $category;
         $data['product'] = Product::whereHas('productCategory', function ($query) use($category) {
         $query->where('category_name', '=', $category);
-        })->get();
+        })->where('sub_category', '=', '')->get();
       
+
+        $data['sub_product'] = Product::whereHas('productCategory', function ($query) use($category) {
+        $query->where('category_name', '=', $category);
+        })->where('sub_category', '!=', '')->get();
+
+        $data['sub_product'] = Product::whereSubCategory($subCategory)->get();
+
         $data['productCategory'] = ProductCategory::get();
         $phone = Settings::whereName('phone')->first();
         $address = Settings::whereName('address')->first();
