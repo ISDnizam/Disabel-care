@@ -121,7 +121,8 @@
                     </div>
                 </section>
 
-                <section style="background-image: url('/assets/theme/images/doctor_blue_left.jpg');" class="vc_row wpb_row vc_row-fluid secondary_section text-center transparent_film vcenter bgimage bg_vcenter">
+
+                <section style="background-image: url('/assets/images/slide.jpg');" class="vc_row wpb_row vc_row-fluid secondary_section text-center transparent_film vcenter bgimage bg_vcenter">
                     <div class="container">
                         <div class="row">
                             <div class="wpb_column vc_column_container col-sm-12 text-center">
@@ -132,8 +133,8 @@
                                         <!-- <p >Hubungi kami di </p> -->
                                     </div>
                                     <div class="plethora_button wpb_content_element text-center">
-                                        <a href="/contact" debug class="btn btn-success with-icon" title="" target="_self">
-                                            Hubungi Kami
+                                        <a href="https://wa.me/+6285800799904?text=Hallo, saya ingin berkonsultasi dengan bapak, terimakasih" debug class="btn btn-success with-icon" title="" target="_self">
+                                            Whatsapp Kami
                                             <i class="fa fa-envelope"></i>
                                         </a>
                                     </div>
