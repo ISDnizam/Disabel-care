@@ -31,7 +31,7 @@
                     @foreach($gallery as $key)
 						@if($key->type=='image')
                             <div class="col-sm-6 col-md-4">
-                                <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
+                                <div class="" style="margin-bottom:20px">
                                         <img src="{{$key->full_path}}"  alt="" style="width:100%; height:100%">
                                     <div class="content boxed with_button">
                                         <div class="hgroup">
