@@ -237,8 +237,14 @@
                                 @foreach($testimonial as $key)
                                 <li>
                                 <div class="name">
-
+                                <div class="col-sm-6 col-md-4">
+                                <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
                                 <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
+
+
+                                </div>
+                            </div>
+                                <!-- <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%"> -->
 
                                     </div>
                                 </li>
