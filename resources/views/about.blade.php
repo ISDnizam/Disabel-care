@@ -11,7 +11,7 @@
 
             <div class="subtitle body-bg_section">
                 <div class="container">
-                    <p>Mari Lawan Keterbatasan Tanpa Batas</p>
+                    <p>Mari Lawan Keterbatasan Tanpa Batas.</p>
                 </div>
             </div>
         </div>
