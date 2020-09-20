@@ -236,22 +236,8 @@
                             <ul class="slides" id="57e1639ace947">
                                 @foreach($testimonial as $key)
                                 <li>
-                                  
-                                <div class="col-sm-6 col-md-4">
-                                <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
-                                    <a
-                                        href="/assets/images/20200322_1200281.jpg"
-                                        class="linkify figure stretchy_wrapper ratio_1-1" target="_blank">
-                                        <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
-                                        </a>
+                                <img src="/assets/images/20200322_1200281.jpg"  alt="" style="width:100%; height:100%">
 
-                                    <div class="content boxed with_button">
-                                        <div class="hgroup">
-                                            <strong>Gambar</strong>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                                     <div class="name">
                                         <strong>{{$key->name}}</strong>
                                     </div>
