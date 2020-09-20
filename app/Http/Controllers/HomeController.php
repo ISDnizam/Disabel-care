@@ -103,9 +103,7 @@ class HomeController extends Controller
         })->where('sub_category', '=', '')->get();
       
 
-        $data['sub_product'] = Product::whereHas('productCategory', function ($query) use($category) {
-        $query->where('category_name', '=', $category);
-        })->where('sub_category', '!=', '')->groupBy('sub_category')->get();
+        $data['sub_product'] = Product::where('sub_category', '!=', '')->groupBy('sub_category')->get();
 
 
         $data['productCategory'] = ProductCategory::get();
