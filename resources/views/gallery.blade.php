@@ -27,11 +27,17 @@
                     <h4>Foto</h4>
                     <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
                 </div>
+                <div class="team_members_grid row">
                     @foreach($gallery as $key)
 						@if($key->type=='image')
                             <div class="col-sm-6 col-md-4">
-                                <div class="" style="margin-bottom:20px">
+                                <div class="team_member teaser_box centered same_height_col white_section" style="margin-bottom:20px">
+                                    <a
+                                        href="{{$key->full_path}}"
+                                        class="linkify figure stretchy_wrapper ratio_1-1" target="_blank">
                                         <img src="{{$key->full_path}}"  alt="" style="width:100%; height:100%">
+                                        </a>
+
                                     <div class="content boxed with_button">
                                         <div class="hgroup">
                                             <strong>{{$key->name}}</strong>
@@ -41,6 +47,7 @@
                             </div>
                         @endif
                     @endforeach
+                </div>
 
                 <div style="margin-top: 80px;" class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text">
                     <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
@@ -59,7 +66,7 @@
             </div>
         </div>
     </section>
-<section style="background-image: url('/assets/theme/images/doctor_blue_left.jpg');" class="vc_row wpb_row vc_row-fluid secondary_section text-center transparent_film vcenter bgimage bg_vcenter">
+<section style="background-image: url('/assets/images/slide.jpg');" class="vc_row wpb_row vc_row-fluid secondary_section text-center transparent_film vcenter bgimage bg_vcenter">
                     <div class="container">
                         <div class="row">
                             <div class="wpb_column vc_column_container col-sm-12 text-center">
