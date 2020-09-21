@@ -8,7 +8,7 @@
 <meta name="HandheldFriendly" content="true">
 <meta name="apple-touch-fullscreen" content="yes">
         <meta name="robots" content="all,index,follow" />
-        <meta name="description" content="Difabel Care Kaki Palsu merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia khusunya kaki palsu, tangan palsu" />
+        <meta name="description" content="Kaki Palsu Berkualitas dengan Harga Terjangkau. Dikerjakan oleh Tenaga Biomedical Enginering Ortotis Prostetis Profesional. Dilatih hingga Lancar Pemakaian Kaki Palsu. Menerima Homevisit Ukur dan Pasang ke Rumah Anda. Garansi Produk." />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     
@@ -17,7 +17,7 @@
         <meta property="og:locale" content="id_ID" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Harga Kaki Palsu Berkualitas Bergaransi - Difabel Care Kaki Palsu Jabodetabek" />
-        <meta property="og:description" content="Difabel Care Kaki Palsu merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia khusunya kaki palsu, tangan palsu" />
+        <meta property="og:description" content="Kaki Palsu Berkualitas dengan Harga Terjangkau. Dikerjakan oleh Tenaga Biomedical Enginering Ortotis Prostetis Profesional. Dilatih hingga Lancar Pemakaian Kaki Palsu. Menerima Homevisit Ukur dan Pasang ke Rumah Anda. Garansi Produk." />
         <meta property="og:url" content="https://difabelcarekakipalsu.com" />
 
         <title>Harga Kaki Palsu Berkualitas Bergaransi - Difabel Care Kaki Palsu Jabodetabek</title>
