@@ -16,7 +16,7 @@
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta property="og:locale" content="id_ID" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Difabel Care Kaki Palsu" />
+        <meta property="og:title" content="Harga Kaki Palsu Berkualitas Bergaransi - Difabel Care Kaki Palsu Jabodetabek" />
         <meta property="og:description" content="Difabel Care Kaki Palsu merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia khusunya kaki palsu, tangan palsu" />
         <meta property="og:url" content="https://difabelcarekakipalsu.com" />
 
