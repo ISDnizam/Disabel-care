@@ -20,7 +20,7 @@
         <meta property="og:description" content="Difabel Care Kaki Palsu merupakan salah satu layanan jual berbagai kebutuhan ortotik prostetik atau yang sering dikenal dengan alat bantu gerak pada manusia khusunya kaki palsu, tangan palsu" />
         <meta property="og:url" content="https://difabelcarekakipalsu.com" />
 
-        <title>Difabel Care- Jual Kaki Palsu</title>
+        <title>Harga Kaki Palsu Berkualitas Bergaransi - Difabel Care Kaki Palsu Jabodetabek</title>
         <link rel="stylesheet" id="wp-block-library-css" href="/assets/theme/css/style.min.css?ver=5.3.4" type="text/css" media="all" />
         <link rel="stylesheet" id="contact-form-7-css" href="/assets/theme/css/styles.css?ver=5.1.6" type="text/css" media="all" />
         <link rel="stylesheet" id="owlcarousel2-css" href="/assets/theme/css/owl.carousel.css?ver=5.3.4" type="text/css" media="all" />
