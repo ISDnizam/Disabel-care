@@ -273,7 +273,7 @@
                         <div class="pricing_plan skincolored_section">
                             <div style="background-image: url(https://plethorathemes.com/healthflex/conference/wp-content/themes/healthflex/features/shortcode/pricingplan/GPlay.svg);" class="plan_title skincolored_section">
                                 <h3 style="font-size:1.5em">Kaki Palsu</h3>
-                                <p>Harga mulai dari Rp 7.000.000</p>
+                                <p>Harga mulai dari Rp 4.500.000</p>
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                                 <h5>Produk : </h5>
@@ -308,7 +308,7 @@
                         <div class="pricing_plan secondary_section">
                             <div style="background-image: url(https://plethorathemes.com/healthflex/conference/wp-content/themes/healthflex/features/shortcode/pricingplan/GPlay.svg);" class="plan_title secondary_section">
                                 <h3 style="font-size:1.5em">Tangan Palsu</h3>
-                                <p>Harga mulai dari Rp 7.000.000</p>
+                                <p>Harga mulai dari Rp 4.500.000</p>
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                             <h5>Produk : </h5>
@@ -343,7 +343,7 @@
                                 style="background-image: url(https://plethorathemes.com/healthflex/conference/wp-content/themes/healthflex/features/shortcode/pricingplan/GPlay.svg); background-color: #00c1cf;"
                                 class="plan_title secondary_section">
                                 <h3 style="font-size:1.5em">Alat Bantu Orthopedi</h3>
-                                <p>Harga mulai dari Rp 2.000.000</p>
+                                <p>Harga mulai dari Rp 1.000.000</p>
                             </div>
                             <div class="the_offerings" style="margin-top:-30px">
                             <h5>Produk : </h5>
